@@ -1,0 +1,37 @@
+
+MONGOOSE SCHEME:
+Un Esquema (Scheme en ingles) en Mongoose es una estructura JSON* que contiene informacion acerca de
+las propiedades de un documento. Puede tambien contener informacion acerca de la validacion y valores
+por defecto, y si una propiedad en particular es requerida o no.
+En resumen, un Scheme es un molde de información.
+
+EXPRESS:
+Express JS es una infraestructura de aplicaciones web Node flexible que proporciona un conjunto solido
+de caracteristicas. Nos permite manejar multiples solicitudes HTTP en una determinara URL
+
+EXPRESS ASYNC HANDLER:
+Express-Async-Handler es una libreria que nos permite manejar funciones asincronas* dentro de routers 
+de tipo Express.
+
+MULTER:
+Multer es una libreria para Express y Node que nos permite manipular multipart/form-data para que los
+usuarios puedan subir archivos a una pagina.
+
+DOTENV: 
+Es una herramienta externa que nos permite manejar variables de entorno o secretas.
+
+BODY PARSER:
+Body-Parser es un modulo que nos permite extraer la parte del cuerpo de una secuencia de solicitud entrante
+y la expone en un objeto "req" para un manejo facil y eficiente.
+
+AXIOS: 
+Axios es una libreria JS que nos permite hacer sencillas las operaciones como cliente HTTP, por lo que podremos
+configurar y realizar solicitudes a un servidor y recibiremos respuestas faciles de procesar.
+
+// *
+JSON:
+Siglas de Java Script Object Notation.
+
+Funciones Asincronas: 
+Nos dan la capacidad de diferir la ejecucion de una funcion a la espera de que se complete una operacion
+(normalmente de red), y así evitar bloquear la ejecucuin hasta que se haya completado la tarea en cuestion.

@@ -1,0 +1,171 @@
+<!-- Galfré Valentín -->
+<!-- Pagina Web de Ventas Online -->
+<!-- Proyecto Final - Escuela Obispo Gelabert N°322 -->
+<!-- 13/06/2021 (98 Dias) -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Title (Titulo) -->
+    <title>Magasin | Tienda Oficial</title>
+
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Colo Shop Template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name=" theme-color" content="#f00" />
+
+    <!-- Icono de la pagina -->
+    <link rel="icon" href="./images/logopng.png">
+
+    <!-- Styles (Estilos) -->
+
+    <!-- Font Awesome CDN (Fuentes e Iconos) -->
+    <script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous" ></script>
+    <!-- Bootstrap CDN (Framework Bootstrap)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- Main CSS (Archivo de Estilos) -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <!-- Owl Carousel File (Carrusel de Imagenes) -->
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css" />
+    <!-- Chartsist -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" />
+
+  </head>
+
+  <body>
+
+    <div class="overlay" id="loading-overlay">Cargando...</div>
+    <div class="overlay" id="message-overlay"></div>
+
+    <div class="super_container">
+
+      <!-- Header -->
+      <header id="header-container" class="header trans_300">
+        
+      </header>
+
+      <!-- Responsive Header -->
+      <div class="fs_menu_overlay"></div>
+      <div class="hamburger_menu">
+        <div class="hamburger_close">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="hamburger_menu_content text-right">
+          <ul class="menu_top_nav">
+            <li class="menu_item"><a href="#">Inicio</a></li>
+            <li class="menu_item"><a href="#/productlist">Catalogo</a></li>
+            <li class="menu_item"><a href="#/contact">Contacto</a></li>
+            <li class="menu_item"><a href="#/about">Acerca</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--  App -->
+      <div class="app_container" id="app_container" >
+
+          
+
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class=" newsletter_text d-flex flex-column justify-content-center align-items-lg-start align-items-md-center " >
+                <h4>Boletin Informativo</h4>
+                <p>
+                  Suscribase a nuestro newsletter y consiga un 20% de descuento
+                  en su primera compra!
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form>
+                <div class=" newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-lg-end justify-content-center" >
+                  <input type="email" id="newsletter_email" placeholder="Tu Email" required="required" data-error="Email no valido" />
+                  <button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="submit" >
+                    Suscribirse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center" >
+                <ul class="footer_nav">
+                  <li><a href="#/profile">Mi perfil</a></li>
+                  <li><a href="#/about">Preguntas</a></li>
+                  <li><a href="#/contact">Contactanos</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+                <ul>
+                  <li>
+                    <a href="https://facebook.com/Magasin.Store" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/Magasin" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com/magasin.store" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i ></a>
+                  </li>
+                  <li>
+                    <a href="https://whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="footer_nav-container">
+                <div class="cr">
+                  ©2021 Todos los derechos reservados. Esta tienda fue creada
+                  con el <i class="fa fa-heart" aria-hidden="true"></i> por
+                  <a href="https://instagram.com/galfre.v" target="_blank">Galfre.vn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="main.js"></script>
+    <!-- JQuery JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Main JS (JavaScript Principal)-->
+    <script src="js/custom.js"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous" ></script>
+    <!-- Isotope JS -->
+    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <!-- Change Script (Script Cambio) -->
+    <script>
+      function initChange(smallImage) {
+        var fullImage = document.getElementById("full");
+        fullImage.src = smallImage.src;
+      }
+    </script>
+
+  </body>
+  
+</html> 
